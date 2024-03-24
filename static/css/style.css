@@ -19,6 +19,15 @@ i {
   text-align: center;
 }
 
+object {
+  width: 100%;
+  max-width: 100%;
+}
+
+figure {
+  text-align: center;
+}
+
 html {
   font-family: "Press Start 2P", system-ui;
   font-size: 16px;
@@ -42,9 +51,6 @@ header .brand p.slogan {
   font-size: 0.8rem;
 }
 
-main section.about figure {
-  text-align: center;
-}
 main section.about figure img {
   width: 40%;
   max-width: 100px;
@@ -59,6 +65,10 @@ main section.about figure img {
 main section.about div.profile h3.name {
   text-transform: capitalize;
 }
+main section.about div.profile p span.strong {
+  font-weight: bold;
+  color: #777;
+}
 main section.contact ul {
   margin: 0;
 }
@@ -67,6 +77,12 @@ main section.contact ul li {
 }
 main section.contact .save {
   padding: 20px;
+}
+main section.contact .save figure {
+  margin-bottom: 1rem;
+}
+main section.contact .save div {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
