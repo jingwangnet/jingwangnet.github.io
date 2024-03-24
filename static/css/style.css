@@ -59,5 +59,14 @@ main section.about figure img {
 main section.about div.profile h3.name {
   text-transform: capitalize;
 }
+main section.contact ul {
+  margin: 0;
+}
+main section.contact ul li {
+  font-size: 0.9rem;
+}
+main section.contact .save {
+  padding: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
