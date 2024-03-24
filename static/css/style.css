@@ -79,6 +79,7 @@ main section.contact .save figure {
   margin-bottom: 1rem;
 }
 main section.contact .save div {
+  padding: 10px;
   text-align: center;
 }
 
