@@ -8,6 +8,17 @@ h2::before {
   content: "# ";
 }
 
+section {
+  margin-bottom: 2rem;
+}
+
+i {
+  display: inline-block;
+  font-size: 2rem;
+  width: 2.5rem;
+  text-align: center;
+}
+
 html {
   font-family: "Press Start 2P", system-ui;
   font-size: 16px;
@@ -44,6 +55,9 @@ main section.about figure img {
   border: 2px solid white;
   padding: 10px;
   border-radius: 50%;
+}
+main section.about div.profile h3.name {
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */

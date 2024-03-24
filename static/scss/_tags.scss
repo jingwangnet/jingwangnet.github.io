@@ -5,3 +5,15 @@ img {
 h2::before {
   content: '# ';
 }
+
+section {
+  margin-bottom: 2rem;
+}
+
+i {
+  display: inline-block;
+  font-size: 2rem;
+  width: 2.5rem;
+  text-align: center;
+}
+

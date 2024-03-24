@@ -49,6 +49,11 @@ main {
         border-radius: 50%;
       }
     }
+    div.profile {
+      h3.name {
+        text-transform: capitalize;
+      }
+    }
   }
 }
 
