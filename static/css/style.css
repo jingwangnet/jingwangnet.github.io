@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import "../node_modules/nes.css/css/nes.css";
+@import "../node_modules/normalize.css/normalize.css";
 img {
   max-width: 100%;
 }
