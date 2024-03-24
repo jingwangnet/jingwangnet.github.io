@@ -21,6 +21,8 @@ i {
 
 figure {
   text-align: center;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 html {
