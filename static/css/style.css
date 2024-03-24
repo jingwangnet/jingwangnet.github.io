@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "../node_modules/nes.css/css/nes.css";
+img {
+  max-width: 100%;
+}
+
+h2::before {
+  content: "# ";
+}
+
+html {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 16px;
+}
+
+header, main, footer {
+  padding: 10px;
+}
+
+header {
+  padding-top: 20px;
+  border-bottom: 4px solid #d3d3d3;
+}
+header .brand a {
+  text-decoration: none;
+}
+header .brand a h1 {
+  text-transform: capitalize;
+}
+header .brand p.slogan {
+  font-size: 0.8rem;
+}
+
+main section.about figure {
+  text-align: center;
+}
+main section.about figure img {
+  width: 40%;
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
