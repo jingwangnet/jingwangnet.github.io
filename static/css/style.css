@@ -25,7 +25,7 @@ figure {
   margin-bottom: 1rem;
 }
 
-html {
+html, body {
   font-family: "Press Start 2P", system-ui;
   font-size: 16px;
 }
