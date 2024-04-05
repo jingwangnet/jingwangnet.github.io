@@ -48,6 +48,14 @@ header, main, footer {
   padding: var(--padding);
 }
 
+@media (min-width: 85.375em) {
+  div.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 header {
   padding-top: 20px;
   border-bottom: 4px solid #d3d3d3;
@@ -60,6 +68,22 @@ header .brand a h1 {
 }
 header .brand p.slogan {
   font-size: 0.8rem;
+}
+
+@media (min-width: 85.375em) {
+  header .container {
+    display: flex;
+    align-items: end;
+  }
+  header .container .brand {
+    flex: 1 1 auto;
+  }
+  header .container .brand p {
+    margin-bottom: 0;
+  }
+  header .container .social-buttons {
+    margin-left: auto;
+  }
 }
 
 main section.about figure img {

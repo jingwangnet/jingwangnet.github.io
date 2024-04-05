@@ -16,7 +16,13 @@ html,body {
 header,main, footer {
   padding: var(--padding);
 }
-
+div.container {
+  @include mixins.min-w(1366) {
+    width: 90%;
+    max-width: 1200px;
+    margin:0 auto;
+  }
+}
 header {
   padding-top: 20px;
   .brand {
@@ -32,6 +38,24 @@ header {
     }
   }
   border-bottom: 4px solid colors.$bg;
+}
+
+header {
+  @include mixins.min-w(1366) {
+    .container {
+      display: flex;
+      align-items: end;
+      .brand {
+        flex: 1 1 auto;
+        p {
+          margin-bottom: 0;
+        }
+      }
+      .social-buttons {
+        margin-left: auto;
+      }
+    }
+  }
 }
 
 main {
