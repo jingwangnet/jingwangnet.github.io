@@ -1,5 +1,9 @@
+@use 'mixins';
 img {
   max-width: 100%;
+  @include mixins.min-w(768) {
+    max-width: 300px;
+  }
 }
 
 h2::before {

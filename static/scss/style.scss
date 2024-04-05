@@ -1,5 +1,6 @@
-@use './vars';
-@use './colors';
+@use 'mixins';
+@use 'colors';
+@import 'vars';
 @import 'tags';
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import "../node_modules/nes.css/css/nes.css";
@@ -13,7 +14,7 @@ html,body {
 
 
 header,main, footer {
-  padding: vars.$padding;
+  padding: var(--padding);
 }
 
 header {

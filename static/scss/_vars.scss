@@ -1,1 +1,8 @@
-$padding: 10px;
+@use '_mixins';
+
+:root {
+  --padding: 10px;
+  @include mixins.min-w(768) {
+    --padding: 30px;
+  }
+}
